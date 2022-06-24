@@ -1,11 +1,11 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #020219;
+    /*background-color: #020219;*/
     color: white;
     background-size: 100%;
-    background-image: url("https://cdn.dribbble.com/users/1595839/screenshots/11700339/media/5b39c07a6a721b6b440288c6c6ec5cb1.gif");
-    /*background-image: url("gif.jpg");*/
+    /*background-image: url("https://cdn.dribbble.com/users/1595839/screenshots/11700339/media/5b39c07a6a721b6b440288c6c6ec5cb1.gif");*/
+    background-image: url("gif.jpg");
 }
 
 @font-face {
