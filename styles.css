@@ -1,0 +1,268 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #020219;
+    color: white;
+    background-size: 100%;
+    /*background-image: url("https://cdn.dribbble.com/users/1595839/screenshots/11700339/media/5b39c07a6a721b6b440288c6c6ec5cb1.gif");*/
+    /*background-image: url("gif.jpg");*/
+}
+
+@font-face {
+    font-family: Titan-One;
+    src: url(https://fonts.google.com/specimen/Titan+One);
+}
+
+h2,
+h3 {
+    text-align: center;
+}
+
+.span-width h3 {
+    text-align: left;
+    vertical-align: top;
+    width: 170%;
+}
+
+
+/* Navbar container */
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial;
+}
+
+
+/* Links inside the navbar */
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+/* The dropdown container */
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+
+/* Dropdown button */
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    /* Important for vertical align on mobile phones */
+    margin: 0;
+    /* Important for vertical align on mobile phones */
+}
+
+
+/* Add a red background color to navbar links on hover */
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+    background-color: #bc13fe;
+}
+
+
+/* Dropdown content (hidden by default) */
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+
+/* Links inside the dropdown */
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+
+/* Add a grey background color to dropdown links on hover */
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+
+/* Show the dropdown menu on hover */
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.span-width {
+    width: 33%;
+    display: inline-block;
+}
+
+.span-width img {
+    width: 50%;
+    display: inline-block;
+    border-radius: 50%;
+    border: 0.2rem solid #fff;
+    border-radius: 2rem;
+    padding: 0.4em;
+    box-shadow: 0 0 .2rem #fff, 0 0 .2rem #fff, 0 0 2rem #bc13fe, 0 0 0.8rem #bc13fe, 0 0 2.8rem #bc13fe, inset 0 0 1.3rem #bc13fe;
+}
+
+.span-width h2 {
+    text-align: center;
+}
+
+.margin {
+    margin-bottom: 10%;
+}
+
+.span-width img:hover {
+    border: 0.2rem solid #fff;
+    border-radius: 2rem;
+    padding: 0.4em;
+    box-shadow: 0 0 .2rem #fff, 0 0 .2rem #fff, 0 0 2rem #1F51FF, 0 0 0.8rem #1F51FF, 0 0 2.8rem #1F51FF, inset 0 0 1.3rem #1F51FF;
+}
+
+.gif1 img {
+    height: 50%;
+    width: auto;
+    float: right;
+}
+
+.neonText {
+    color: #fff;
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #1F51FF, 0 0 60px #1F51FF, 0 0 70px #1F51FF, 0 0 80px #1F51FF;
+}
+
+
+/* Make sure that padding behaves as expected */
+
+
+/* Container for skill bars */
+
+.container {
+    width: 70%;
+    /* Full width */
+    background-color: #ddd;
+    /* Grey background */
+    border: 0.2rem solid #fff;
+    border-radius: 2rem;
+    padding: 0.1em;
+    box-shadow: 0 0 .2rem #fff, 0 0 .2rem #fff, 0 0 2rem #bc13fe, 0 0 0.8rem #bc13fe, 0 0 2.8rem #bc13fe, inset 0 0 1.3rem #bc13fe;
+}
+
+.skills {
+    text-align: right;
+    /* Right-align text */
+    padding-top: 5px;
+    /* Add top padding */
+    padding-bottom: 5px;
+    /* Add bottom padding */
+    color: white;
+    /* White text color */
+}
+
+.skillset {
+    background-color: #1F51FF;
+    /* Grey background */
+    border: 0.2rem solid #fff;
+    border-radius: 2rem;
+    padding: 0.4em;
+    box-shadow: 0 0 .2rem #fff, 0 0 .2rem #fff, 0 0 2rem #1F51FF, 0 0 0.8rem #1F51FF, 0 0 2.8rem #1F51FF, inset 0 0 1.3rem #1F51FF;
+}
+
+.html {
+    width: 90%;
+}
+
+
+/* Green */
+
+.css {
+    width: 80%;
+}
+
+
+/* Blue */
+
+.cpp {
+    width: 70%;
+}
+
+
+/* Red */
+
+.python {
+    width: 80%;
+}
+
+
+/* Dark Grey */
+
+* {
+    box-sizing: border-box;
+}
+
+.span-width h1 {
+    font-family: Titan-One;
+}
+
+.tech p {
+    font-size: larger;
+}
+
+.skillhead h3 {
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    margin-left: 15%;
+}
+
+.tech {
+    position: relative;
+    margin-top: 20%;
+}
+
+.about {
+    margin-top: 5%;
+}
+
+.red-width {
+    display: inline-block;
+    width: 49%;
+    vertical-align: top;
+}
+
+.edu {
+    font-size: larger;
+}
+
+.skillheat h3 {
+    float: left;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    margin-left: 25%;
+}
