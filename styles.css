@@ -8,10 +8,6 @@ body {
     background-image: url("best.webp");
 }
 
-@font-face {
-    font-family: Titan-One;
-    src: url(https://fonts.google.com/specimen/Titan+One);
-}
 
 h2,
 h3 {
