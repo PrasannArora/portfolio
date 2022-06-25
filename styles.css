@@ -299,3 +299,11 @@ h3 {
     position: relative;
     margin-left: 25%;
 }
+
+.gap {
+    margin: 10%;
+}
+
+.right {
+    float: right;
+}
