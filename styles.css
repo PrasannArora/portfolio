@@ -190,28 +190,67 @@ h3 {
 }
 
 .html {
-    width: 90%;
+    width: 0%;
+    animation: html 3s ease 1 forwards 3s;
 }
 
+@keyframes html {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 90%;
+    }
+}
 
 /* Green */
 
 .css {
-    width: 80%;
+    animation: css 3s ease 1 forwards 3.2s;
+    width: 0%;
+}
+
+@keyframes css {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 80%;
+    }
 }
 
 
 /* Blue */
 
 .cpp {
-    width: 70%;
+    animation: cpp 3s ease 1 forwards 3.3s;
+    width: 0%;
+}
+
+@keyframes cpp {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 70%;
+    }
 }
 
 
 /* Red */
 
 .python {
-    width: 80%;
+    animation: python 3s ease 1 forwards 3.35s;
+    width: 0%;
+}
+
+@keyframes python {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 80%;
+    }
 }
 
 
