@@ -404,3 +404,22 @@ h3 {
 .dropdown:hover .left {
     display: block;
 }
+
+@media only screen and (max-width: 600px) {
+    .span-width {
+        position: relative;
+        width: auto;
+        display: block;
+    }
+    .span-width h3,
+    h1 {
+        width: fit-content;
+    }
+    .tech {
+        display: block;
+        width: 100%;
+    }
+    .red-width {
+        display: block;
+        width: 100%;
+    }
