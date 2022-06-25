@@ -470,5 +470,11 @@ h3 {
             animation: none;
             width: 80%;
         }
+        .container {
+            width: 95%;
+        }
+        .skillset {
+            font-size: 5px;
+        }
         
     }
