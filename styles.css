@@ -411,15 +411,40 @@ h3 {
         width: auto;
         display: block;
     }
+    .span-width h1 {
+        width: 100%;
+        text-align: center;
+    }
     .span-width h3,
     h1 {
         width: fit-content;
+        margin-right: 5%;
+        margin-left: 5%;
     }
     .tech {
+        margin: 0%;
+        padding: 0%;
         display: block;
         width: 100%;
+    }
+    .about {
+        display: block;
+        margin-bottom: 5%;
+    }
+    .skillheat {
+        width: 100%;
+        display: block;
+        text-align: center;
+        margin: 5%;
+    }
+    .skillheat h3 {
+        width: 100%;
+        text-align: center;
+        display: block;
     }
     .red-width {
         display: block;
         width: 100%;
+        margin: 5%;
     }
+}
