@@ -406,49 +406,68 @@ h3 {
 }
 
 @media only screen and (max-width: 600px) {
-    .span-width {
-        position: relative;
-        width: 100%;
-        display: block;
+        .span-width {
+            position: relative;
+            width: 100%;
+            display: block;
+        }
+        .span-width h1 {
+            width: 100%;
+            text-align: center;
+        }
+        .span-width h3,
+        h1 {
+            width: 100%;
+            padding: 5%;
+        }
+        .tech {
+            margin: 0%;
+            padding: 0%;
+            display: block;
+            width: 100%;
+        }
+        .about {
+            display: block;
+            margin-bottom: 5%;
+        }
+        .skillheat {
+            width: 100%;
+            display: block;
+            text-align: center;
+        }
+        .skillheat h3 {
+            width: 100%;
+            text-align: center;
+            display: block;
+            float: none;
+            padding: 0;
+            position: relative;
+            margin-left: 0%;
+        }
+        .red-width {
+            display: block;
+            width: 100%;
+            padding: 5%;
+            vertical-align: auto;
+        }
+        .html {
+            width: 90%;
+            animation: none;
+        }
+        /* Green */
+        .css {
+            animation: none;
+            width: 80%;
+        }
+        /* Blue */
+        .cpp {
+            animation: none;
+            width: 70%;
+        }
+        /* Red */
+        .python {
+            animation: none;
+            width: 80%;
+        }
+        
     }
-    .span-width h1 {
-        width: 100%;
-        text-align: center;
-    }
-    .span-width h3,
-    h1 {
-        width: 100%;
-        margin-right: 5%;
-        margin-left: 5%;
-    }
-    .tech {
-        margin: 0%;
-        padding: 0%;
-        display: block;
-        width: 100%;
-    }
-    .about {
-        display: block;
-        margin-bottom: 5%;
-    }
-    .skillheat {
-        width: 100%;
-        display: block;
-        text-align: center;
-    }
-    .skillheat h3 {
-        width: 100%;
-        text-align: center;
-        display: block;
-        float: none;
-        padding: 0;
-        position: relative;
-        margin-left: 0%;
-    }
-    .red-width {
-        display: block;
-        width: 100%;
-        padding: 5%;
-        vertical-align: auto;
-    }
-}
