@@ -408,7 +408,7 @@ h3 {
 @media only screen and (max-width: 600px) {
     .span-width {
         position: relative;
-        width: auto;
+        width: 100%;
         display: block;
     }
     .span-width h1 {
@@ -417,7 +417,7 @@ h3 {
     }
     .span-width h3,
     h1 {
-        width: fit-content;
+        width: 100%;
         margin-right: 5%;
         margin-left: 5%;
     }
@@ -435,16 +435,20 @@ h3 {
         width: 100%;
         display: block;
         text-align: center;
-        margin: 5%;
     }
     .skillheat h3 {
         width: 100%;
         text-align: center;
         display: block;
+        float: none;
+        padding: 0;
+        position: relative;
+        margin-left: 0%;
     }
     .red-width {
         display: block;
         width: 100%;
-        margin: 5%;
+        padding: 5%;
+        vertical-align: auto;
     }
 }
