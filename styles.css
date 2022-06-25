@@ -307,3 +307,65 @@ h3 {
 .right {
     float: right;
 }
+
+.icon {
+    margin: 4%;
+}
+
+.icon img:hover {
+    background: url("ghl.png");
+}
+
+.figure {
+    position: relative;
+    width: 59px;
+    /* can be omitted for a regular non-lazy image */
+    max-width: 100%;
+}
+
+.figure img.image-hover {
+    position: realtive;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    object-fit: fill;
+    opacity: 0;
+    transition: opacity .2s;
+    margin: 0;
+}
+
+.figure:hover img.image-main {
+    opacity: 0;
+}
+
+.figure:hover img.image-hover {
+    opacity: 1;
+    width: 500%;
+}
+
+/*.left {
+    float: left;
+    display: none;
+    position: absolute;
+    background-color: #000000;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.left a:hover {
+    background-color: #272727;
+}*/
+
+
+/* Show the dropdown menu on hover */
+
+.dropdown:hover .left {
+    display: block;
+}
+
+.rightd {
+    float: right;
+    margin-right: 10%;
+}
