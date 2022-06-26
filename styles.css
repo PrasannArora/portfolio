@@ -197,7 +197,7 @@ h3 {
     box-shadow: 0 0 .2rem #fff, 0 0 .2rem #fff, 0 0 2rem #1F51FF, 0 0 0.8rem #1F51FF, 0 0 2.8rem #1F51FF, inset 0 0 1.3rem #1F51FF;
 }
 
-.html {
+/*.html {
     width: 0%;
     animation: html 3s ease 1 forwards 3s;
 }
@@ -213,7 +213,7 @@ h3 {
 
 /* Green */
 
-.css {
+/*.css {
     animation: css 3s ease 1 forwards 3.2s;
     width: 0%;
 }
@@ -230,7 +230,7 @@ h3 {
 
 /* Blue */
 
-.cpp {
+/*.cpp {
     animation: cpp 3s ease 1 forwards 3.3s;
     width: 0%;
 }
@@ -247,7 +247,7 @@ h3 {
 
 /* Red */
 
-.python {
+/*.python {
     animation: python 3s ease 1 forwards 3.35s;
     width: 0%;
 }
@@ -263,6 +263,26 @@ h3 {
 
 
 /* Dark Grey */
+
+        .html {
+            width: 90%;
+            animation: none;
+        }
+        /* Green */
+        .css {
+            animation: none;
+            width: 80%;
+        }
+        /* Blue */
+        .cpp {
+            animation: none;
+            width: 70%;
+        }
+        /* Red */
+        .python {
+            animation: none;
+            width: 80%;
+        }
 
 * {
     box-sizing: border-box;
