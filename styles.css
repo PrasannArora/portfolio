@@ -370,7 +370,7 @@ h3 {
 
 /* Show the dropdown menu on hover */
 
-.dropdown:hover .left {
+.dropdown:hover /*.left */{
     display: block;
 }
 
@@ -410,9 +410,9 @@ h3 {
 
 /* Show the dropdown menu on hover */
 
-/*.dropdown:hover .left {
+.dropdown:hover /*.left*/ {
     display: block;
-}*/
+}
 
 .cert img {
         height: 50px;
