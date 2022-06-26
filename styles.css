@@ -329,7 +329,7 @@ h3 {
     position: relative;
     width: 59px;
     /* can be omitted for a regular non-lazy image */
-    max-width: 100%;
+    max-width: fit-content;
 }
 
 .figure img.image-hover {
@@ -350,7 +350,7 @@ h3 {
 
 .figure:hover img.image-hover {
     opacity: 1;
-    width: 100%;
+    
 }
 
 /*.left {
