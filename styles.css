@@ -146,7 +146,7 @@ h3 {
     border: 0.2rem solid #fff;
     border-radius: 2rem;
     padding: 0.4em;
-    box-shadow: 0 0 .2rem #fff, 0 0 .2rem #fff, 0 0 2rem #1F51FF, 0 0 0.8rem #1F51FF, 0 0 2.8rem #1F51FF, inset 0 0 1.3rem #1F51FF;
+    /*box-shadow: 0 0 .2rem #fff, 0 0 .2rem #fff, 0 0 2rem #1F51FF, 0 0 0.8rem #1F51FF, 0 0 2.8rem #1F51FF, inset 0 0 1.3rem #1F51FF;*/
 }
 
 .gif1 img {
