@@ -414,6 +414,22 @@ h3 {
     display: block;
 }
 
+.cert img {
+        height: 50px;
+        width: auto;
+        display: inline-block;
+    }
+    
+    .cert p {
+        text-align: center;
+        display: inline-block;
+        vertical-align: top;
+    }
+    
+    .padding {
+        padding: 2%;
+    }
+
 @media only screen and (max-width: 600px) {
         .span-width {
             position: relative;
