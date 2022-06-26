@@ -484,5 +484,30 @@ h3 {
         .skillset {
             font-size: 5px;
         }
+  .cert img {
+            height: 50px;
+            width: auto;
+            display: inline;
+        }
+        .cert p {
+            text-align: left;
+            display: inline;
+            vertical-align: top;
+        }
+        .padding {
+            padding: 2%;
+        }
+        .dp {
+            display: block;
+            padding: 1%;
+        }
+        .rite {
+            display: inline-block;
+            padding: 1%;
+            width: 100%;
+        }
+        .rite p {
+            float: right;
+        }
         
     }
