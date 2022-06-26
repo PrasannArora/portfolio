@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    font-size:19.2px;
+    /*font-size:19.2px;*/
     margin: 0;
     padding: 0;
     /*background-color: #020219;*/
@@ -455,9 +455,9 @@ h3 {
 
 @media only screen and (max-width: 600px) {
         
-        body {
+        /*body {
             font-size:16px;
-        }
+        }*/
         .span-width {
             position: relative;
             width: 100%;
