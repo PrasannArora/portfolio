@@ -350,7 +350,7 @@ h3 {
 
 .figure:hover img.image-hover {
     opacity: 1;
-    width: 500%;
+    width: 100%;
 }
 
 /*.left {
