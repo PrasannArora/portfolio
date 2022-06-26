@@ -18,6 +18,10 @@ h3 {
     text-align: center;
 }
 
+ a {
+    text-decoration: none;
+ }
+
 .span-width h3 {
     text-align: left;
     vertical-align: top;
