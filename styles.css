@@ -7,7 +7,7 @@ body {
     padding: 0;
     /*background-color: #020219;*/
     color: white;
-    background-size: 100%;
+    /*background-size: 100%;*/
     /*background-image: url("https://cdn.dribbble.com/users/1595839/screenshots/11700339/media/5b39c07a6a721b6b440288c6c6ec5cb1.gif");*/
     background-image: url("f.avif");
 }
@@ -173,7 +173,7 @@ h3 {
     /* Grey background */
     border: 0.2rem solid #fff;
     border-radius: 2rem;
-    padding: 0.1em;
+    /*padding: 0.1em;*/
     /*box-shadow: 0 0 .2rem #fff, 0 0 .2rem #fff, 0 0 2rem #bc13fe, 0 0 0.8rem #bc13fe, 0 0 2.8rem #bc13fe, inset 0 0 1.3rem #bc13fe;*/
 }
 
@@ -515,9 +515,7 @@ h3 {
         .container {
             width: 95%;
         }
-        .skillset {
-            font-size: 5px;
-        }
+        
   .cert img {
             height: 50px;
             width: auto;
