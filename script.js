@@ -15,3 +15,7 @@ window.addEventListener("scroll", reveal);
 
 // To check the scroll position on page load
 reveal();
+function lm() {
+    var element = document.body;
+    element.classList.toggle("light-mode");
+}
