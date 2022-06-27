@@ -13,6 +13,36 @@ body {
     background-image: url("f.avif");
 }
 
+ .light-mode {
+            background-image: url("lm.avif");
+            color: #000000;
+        }
+        
+        a:link {
+            color: #00FFFF;
+        }
+        
+        a:visited {
+            color: #ff0000;
+        }
+        
+        a:hover {
+            color: #9f88f4;
+        }
+        
+        a:active {
+            color: #00FFFF;
+        }
+        
+        .dp img {
+            transition: transform 1s ease-in-out;
+        }
+        
+        .dp img:hover {
+            transform: rotate(360deg);
+        }
+        
+
 
 h2,
 h3 {
