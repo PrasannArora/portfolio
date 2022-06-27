@@ -453,6 +453,30 @@ h3 {
         padding: 2%;
     }
 
+  .reveal {
+            position: relative;
+            opacity: 0;
+        }
+        
+        .reveal.active {
+            opacity: 1;
+        }
+        
+        .active.fade-left {
+            animation: fade-left 1s ease-in;
+        }
+        
+        @keyframes fade-left {
+            0% {
+                transform: translateX(-100px);
+                opacity: 0;
+            }
+            100% {
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+
 @media only screen and (max-width: 600px) {
         
         /*body {
