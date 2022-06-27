@@ -574,5 +574,11 @@ h3 {
         .rite p {
             float: right;
         }
+        .skillhead h3 {
+    /* text-align: center; */
+    /* padding: 20px; */
+    /* position: relative; */
+       margin-left: 15%;
+        }
         
     }
